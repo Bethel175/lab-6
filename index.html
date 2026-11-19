@@ -40,6 +40,33 @@
 
   <main class="container my-5">
 
+    <h1 class="text-center fw-bold mb-4">Loving pet care while you're away</h1>
+
+    <!-- CAROUSEL -->
+    <div id="petCarousel" class="carousel slide">
+      <div class="carousel-inner rounded-5">
+        <div class="carousel-item active">
+          <img src="images/slide1.jpg" class="d-block w-100" alt="A person walking a small white dog past sunflowers">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide2.jpg" class="d-block w-100" alt="A tabby cat resting on a grey couch">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slide3.jpg" class="d-block w-100" alt="A smiling woman hugging a chocolate Labrador in a park">
+        </div>
+      </div>
+      <div>
+        <button class="btn-icon btn-sm" type="button" data-bs-target="#petCarousel" data-bs-slide="prev">
+          <span class="carousel-icon-prev" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="btn-icon btn-sm" type="button" data-bs-target="#petCarousel" data-bs-slide="next">
+          <span class="carousel-icon-next" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
   </main>
 
   <script src="js/bootstrap.bundle.min.js" type="module"></script>
