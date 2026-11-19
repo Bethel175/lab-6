@@ -7,6 +7,11 @@
   --bs-primary-border: #d9b49c;
   --bs-primary-focus-ring: #e2c2ad;
   --bs-primary-contrast: #ffffff;
+
+  /* Light, warm backgrounds (page, navbar and footer) */
+  color-scheme: light;
+  --bs-bg-body: #fdf8f3;
+  --bs-bg-1: #f3e3d6;
 }
 
 /* Solid primary button */
