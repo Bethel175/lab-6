@@ -1,0 +1,17 @@
+/* Theme: change Bootstrap's primary colour to warm brown */
+:root {
+  --bs-primary-base: #8a4b2a;
+  --bs-primary-bg: #8a4b2a;
+  --bs-primary-fg: #7a3f20;
+  --bs-primary-bg-subtle: #f7ebe3;
+  --bs-primary-border: #d9b49c;
+  --bs-primary-focus-ring: #e2c2ad;
+  --bs-primary-contrast: #ffffff;
+}
+
+/* Solid primary button */
+.btn-solid.theme-primary {
+  --bs-btn-bg: #8a4b2a;
+  --bs-btn-border-color: #8a4b2a;
+  --bs-btn-color: #ffffff;
+}
