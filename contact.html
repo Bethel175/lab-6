@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws &amp; Stay Pet Sitting | Contact</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR (Contact is active on this page) -->
+  <nav class="navbar md:navbar-expand bg-1">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Paws &amp; Stay</a>
+      <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+      </button>
+      <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+        <div class="drawer-header">
+          <span class="drawer-title" id="navbarDrawerLabel">Menu</span>
+          <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+        </div>
+        <div class="drawer-body">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </dialog>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+
+    <h1 class="fw-bold mb-4">Book a Pet Sitter</h1>
+
+    <!-- CONTACT FORM -->
+    <form class="row g-3">
+
+      <div class="col-12 md:col-6 form-field">
+        <label for="firstName" class="form-label">First name</label>
+        <input type="text" class="form-control" id="firstName">
+      </div>
+
+      <div class="col-12 md:col-6 form-field">
+        <label for="lastName" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="lastName">
+      </div>
+
+      <div class="col-12 md:col-6 form-field">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+
+      <div class="col-12 md:col-6 form-field">
+        <label for="service" class="form-label">Service needed</label>
+        <select class="form-control" id="service">
+          <option selected>Choose one…</option>
+          <option value="walking">Dog walking</option>
+          <option value="dropin">Drop-in visits</option>
+          <option value="overnight">Overnight stays</option>
+          <option value="smallpets">Rabbits &amp; birds</option>
+        </select>
+      </div>
+
+      <div class="col-12 form-field">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4"></textarea>
+      </div>
+
+      <div class="col-12 form-field">
+        <input type="checkbox" id="consent" class="check">
+        <label for="consent">I agree to be contacted about my booking</label>
+      </div>
+
+      <div class="col-12">
+        <button type="submit" class="btn-solid theme-primary">Send request</button>
+      </div>
+
+    </form>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-1 py-4 text-center">
+    <p class="mb-0">&copy; 2026 Paws &amp; Stay Pet Sitting</p>
+    <p class="mb-0">Photos from Unsplash</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js" type="module"></script>
+</body>
+</html>
